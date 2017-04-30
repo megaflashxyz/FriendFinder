@@ -1,7 +1,7 @@
 module.exports = [
   { //Friend 1
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://sv.wikipedia.org/wiki/Ahmed_Berhan#/media/File:Ahmed_Berhan_2014.jpg",
     "scores":[
         5,
         1,
@@ -18,7 +18,7 @@ module.exports = [
 
   {  //Friend 2
     'name' : 'Beth',
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://blog.oxforddictionaries.com/wp-content/uploads/selfie4.jpg",
     "scores":[
        3,
        4,
@@ -34,7 +34,7 @@ module.exports = [
   },
   { //Friend 3
     "name":"Carlotta",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://i.dailymail.co.uk/i/pix/2016/05/23/22/348B85E200000578-3605456-image-m-37_1464040594420.jpg",
     "scores":[
         2,
         5,
@@ -50,7 +50,7 @@ module.exports = [
   },
   { //Friend 4
     "name":"Reggie",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://www.maheshbabufans.com/wp-content/uploads/2013/05/profile-new-Copy-350x350.jpg",
     "scores":[
         3,
         4,
@@ -67,7 +67,7 @@ module.exports = [
   //Friend 5
    {
     "name":"Erika",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://www.insead.edu/sites/default/files/assets/cache/images//faculty-profile1-resize-620x500-a08def23d5-287a20f1cf59384b.png",
     "scores":[
         1,
         1,
@@ -83,7 +83,7 @@ module.exports = [
   },
    { //Friend 6
     "name":"Yamada",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":'http://i1.jpopasia.com/news/4/12572-0enio31z44.jpg',
     "scores":[
         4,
         4,
@@ -99,7 +99,7 @@ module.exports = [
   },
    { //Friend 7
     "name":"Lucy",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":'https://media.poetryfoundation.org/m/image/14568/lucy-ives.jpg?w=448&h=&fit=max',
     "scores":[
        5,
        3,
@@ -115,7 +115,7 @@ module.exports = [
   },
    { //Friend 8
     "name":"José",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://pbs.twimg.com/profile_images/646681702119575552/g9nEpG3W.jpg",
     "scores":[
         3,
         3,
@@ -131,7 +131,7 @@ module.exports = [
   },
    { //Friend 9
     "name":"Stephen",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"https://i.guim.co.uk/img/static/sys-images/Observer/Pix/pictures/2011/11/24/1322158730849/daniel-evans-at-sheffield-008.jpg?w=300&q=55&auto=format&usm=12&fit=max&s=d1b46869be8a22c12a54dbc78e42e92c",
     "scores":[
         1,
         3,
@@ -147,7 +147,7 @@ module.exports = [
   },
    { //Friend 10
     "name":"Kartik",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://sim02.in.com/c040510d6e473304974efbf5e3bff30e_m.jpg",
     "scores":[
        3,
        2,
