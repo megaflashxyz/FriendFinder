@@ -3,6 +3,16 @@ let friends  = require('../data/friends.js');
 const router = require('express').Router();
 const _ = require('lodash');
 
+function calculateCompatibility(userArray, friendArray){
+	var difference = 0;
+	for(let answer in userArray){
+		console.log('User:' + userArray[answer], 'Friend' + friendArray[answer]);
+		difference += (Math.abs(userArray[answer] - friendArray[answer]));;
+		console.log(difference);
+	}
+	return difference;
+}
+
 router.get('/api/friends', function(req, res){
 	res.json(friends);
 });
@@ -12,18 +22,15 @@ router.post('/api/friends', function(req, res){
 	var best_match_data = {};
 	let user_scores = req.body.scores;
 
-	//You have to parse the user scores into ints
+	// You have to parse the user scores into ints
 	for(var score in user_scores){
 		user_scores[score] = parseInt(user_scores[score], 10);
 	}
-	let user_total = _.sum(user_scores);
-	console.log('User score' , user_total)
-	//Loop through friends and calculate the difference in score from user
+	console.log('User score' , user_scores)
+	//Loop through friends and calculate the difference in score from user on each ?
 	for (var person in friends){
-		let friend_total = _.sum(friends[person].scores);
-		console.log(friends[person].name + ' total', friend_total);
-		let difference = Math.abs(user_total - friend_total);
-		console.log(difference, differential_score);
+		console.log("Friend: " + friends[person].name, "Answers " + friends[person].scores)
+		let difference = calculateCompatibility(user_scores, friends[person].scores)
 		if(difference < differential_score){
 			differential_score = difference;
 			best_match_data.name = friends[person].name;
