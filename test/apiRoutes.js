@@ -103,10 +103,71 @@ describe('User survey', function(){
 				3,
 				1,
 				2,
+				5
 			];
 			assert.equal(0,calculateCompatibility(user_scores, friends[0].scores))
 		});
 	});
 });
+
+describe('Matching Logic', function() {
+
+	describe('Name ', function() {
+	    it('should set best_match_data name to "foo", even though there is identical score later', function() {
+	    	 let differential_score = 100000;
+			   let user_scores = [
+			        3,
+			        4,
+			        1,
+			        2,
+			        3,
+			        5,
+			        3,
+			        1,
+			        2,
+			        1   
+			    ];
+	     	let best_match_data = {};
+	        for (var person in friends) {
+	            let difference = calculateCompatibility(user_scores, friends[person].scores)
+	            if (difference < differential_score) {
+	                differential_score = difference;
+	                best_match_data.name = friends[person].name;
+	                best_match_data.photo = friends[person].photo;
+	            }
+	        }
+	        assert.equal('foo', best_match_data.name);
+	    });
+	});
+	describe('Photo', function() {
+	    it('should set best_match_data.photo', function() {
+	    	let differential_score = 100000;
+		    let user_scores = [
+		        3,
+		        4,
+		        1,
+		        2,
+		        3,
+		        5,
+		        3,
+		        1,
+		        2,
+		        1   
+    		];
+	    	let best_match_data = {};
+	        for (var person in friends) {
+	            let difference = calculateCompatibility(user_scores, friends[person].scores)
+	            if (difference < differential_score) {
+	                differential_score = difference;
+	                best_match_data.name = friends[person].name;
+	                best_match_data.photo = friends[person].photo;
+	            }
+	        }
+	        assert.equal('bar', best_match_data.photo);
+	    });
+	});
+});
+
+
 
 
