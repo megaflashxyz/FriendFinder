@@ -37,4 +37,7 @@ router.post('/api/friends', function(req, res){
 	res.json(best_match_data);
 })
 
-module.exports = router;
+module.exports = {
+	router,
+	calculateCompatibility
+};
