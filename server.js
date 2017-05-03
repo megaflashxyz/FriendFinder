@@ -14,7 +14,7 @@ app.use(bodyParser.json({
   type: "application/vnd.api+json"
 }));
 
-app.use(require('./app/routing/apiRoutes.js'));
+app.use(require('./app/routing/apiRoutes.js').router);
 
 app.use(require('./app/routing/htmlRoutes.js'));
 
