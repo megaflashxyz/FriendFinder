@@ -1,0 +1,52 @@
+body{
+	background: -webkit-linear-gradient(rgb(112, 164, 229) , rgb(50, 73, 101));
+	background: -o-linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
+	background: -moz-linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
+	background: linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
+}
+
+.jumbotron{
+	box-shadow: 0px 8px 25px
+	background-color: #FDFDFD;
+}
+
+.survey{
+	background-color: white;
+	text-align: center;
+}
+
+.question{
+	background-color: #E8CCAC;
+	text-align: center;
+	
+	padding-bottom: 10px;
+	margin: 20px 15px;
+	border-radius: 8px
+}
+
+.footer{
+	background-color: transparent;
+}
+
+h3{
+	font-style: italic;
+}
+
+h4{
+	font-variant: small-caps;
+}
+
+a{
+	color: white;
+}
+
+a:active{
+	color: magenta;
+}
+a:focus{
+	color: purple;
+}
+
+#submit{
+	align-content: center
+}
