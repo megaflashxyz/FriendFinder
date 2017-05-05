@@ -1,8 +1,12 @@
+
 body{
+	
 	background: -webkit-linear-gradient(rgb(112, 164, 229) , rgb(50, 73, 101));
 	background: -o-linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
 	background: -moz-linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
 	background: linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .jumbotron{
@@ -42,10 +46,11 @@ h4{
 a{
 	color: white;
 }
-
-a:active{
-	color: magenta;
+a:hover{
+	color: white;
+	text-decoration: underline;
 }
+
 a:focus{
 	color: purple;
 }
