@@ -19,6 +19,6 @@ app.use(require('./app/routing/apiRoutes.js').router);
 app.use(require('./app/routing/htmlRoutes.js'));
 
 
-app.listen(PORT, function() { 
+app.listen((process.env.PORT || PORT), function() { 
 	console.log('App is listening on port ' + PORT);
 });
