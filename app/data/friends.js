@@ -1,7 +1,7 @@
 module.exports = [
   { //Friend 1
     "name":"Ahmed",
-    "photo":"https://sv.wikipedia.org/wiki/Ahmed_Berhan#/media/File:Ahmed_Berhan_2014.jpg",
+    "photo":"https://www.ottawaheart.ca/sites/default/files/styles/bio_landscape/public/images/profiles/dr-gary-small.jpg?itok=LtbrI0AM",
     "scores":[
         5,
         1,
@@ -18,7 +18,7 @@ module.exports = [
 
   {  //Friend 2
     'name' : 'Beth',
-    "photo":"http://blog.oxforddictionaries.com/wp-content/uploads/selfie4.jpg",
+    "photo":"http://devilsworkshop.org/files/2013/01/small-facebook-profile-picture.jpg",
     "scores":[
        3,
        4,
