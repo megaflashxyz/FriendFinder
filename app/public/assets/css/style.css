@@ -31,10 +31,10 @@ body{
 }
 
 a{
-	color: white;
+	color: black;
 }
 a:hover{
-	color: white;
+	color: black;
 	text-decoration: underline;
 }
 
