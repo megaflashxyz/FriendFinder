@@ -1,16 +1,11 @@
 
 body{
-	
-	background: -webkit-linear-gradient(rgb(112, 164, 229) , rgb(50, 73, 101));
-	background: -o-linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
-	background: -moz-linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
-	background: linear-gradient(rgb(112, 164, 229) ,rgb(50, 73, 101));
+	background: #EFEFF4;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
 .jumbotron{
-	box-shadow: 0px 8px 25px
 	background-color: #FDFDFD;
 }
 
@@ -19,28 +14,20 @@ body{
 .survey{
 	background-color: white;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 
 .question{
-	background-color: #E8CCAC;
+	background-color: #EFEFF4;
 	text-align: center;
 	
 	padding-bottom: 10px;
 	margin: 20px 15px;
-	border-radius: 15px
+	border-radius: 20px
 }
 
 .footer{
 	background-color: transparent;
-}
-
-h3{
-	font-style: italic;
-}
-
-h4{
-	font-variant: small-caps;
 }
 
 a{
